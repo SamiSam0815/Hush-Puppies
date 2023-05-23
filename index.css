@@ -1,0 +1,527 @@
+#d1{
+    border: 1px solid black;
+    background-color: grey;
+    height: 30px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+h3{
+    width: fit-content;
+    text-align: center;
+    color: white;
+    margin-left: 80px;
+    margin-top: 3px;
+}
+
+#d2{
+    /* border: 1px solid black;    */
+    margin-top: -117px;
+    height: 80px;
+    width: 1261px;
+    position: absolute;
+}
+
+#m{
+    margin-left: 30px;
+    width: fit-content;
+    position: absolute;
+}
+
+#w{
+    margin-left: 100px;
+    position: absolute;
+}
+
+#k{
+    margin-left: 200px;
+    position: absolute;
+}
+
+#a{
+    margin-left: 270px;
+    position: absolute;
+}
+
+#bs{
+    margin-left: 410px;
+    position: absolute;
+}
+
+#img1{
+    margin-left: 600px;
+    position: absolute;
+}
+
+#btnSearch{
+    background-image: url(search.jpg);
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 980px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+h4{
+    margin-left: 980px;
+    position: absolute;
+    margin-top: 44px;
+}
+
+#btnSearch:hover,h4:hover,#btnSignIn:hover,#btnCart:hover,#btnWishlst:hover,#btnSub:hover{
+    cursor: pointer;
+}
+
+#m:hover,#w:hover,#k:hover,#a:hover,#bs:hover{
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnSignIn{
+    background-image: url(sign.JPG);
+    width: 40px;
+    height: 30px;
+    border: none;
+    margin-left: 1058px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#si{
+    margin-left: 1055px;
+    position: absolute;
+    margin-top: 44px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#btnCart{
+    background-image: url(cart.JPG);
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-left: 1125px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#c{
+    margin-left: 1125px;
+    position: absolute;
+    margin-top: 44px;
+}
+
+#btnWishlst{
+    background-image: url(Wishlist.JPG);
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-left: 1198px;
+    margin-top: 5px;
+    position: absolute;   
+}
+
+#wl{
+    margin-left: 1180px;
+    position: absolute;
+    margin-top: 44px;   
+}
+
+#img2{
+    width: 1270px;
+    position: absolute;   
+    margin-bottom: 20px;
+}
+
+#btnShopFW{
+    position: absolute;   
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: large;
+}
+
+#btnShopFW:hover,#btnShopAprl:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+    transition: 0.2s;
+}
+
+#btnShopAprl{
+    position: absolute;   
+    margin-top: 300px;
+    margin-left: 320px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: large;
+}
+
+#img3{
+    margin-top: 440px;
+    width: 640px;
+    height: 750px;
+    position: absolute;      
+}
+
+#img3:hover,#img4:hover,#img5:hover,#img6:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+#btnMen{
+    position: absolute;      
+    margin-top: 1100px;
+    margin-left: 220px;
+    font-size: x-large;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-color: black;
+}
+
+#img4{
+    margin-top: 440px;
+    margin-left: 644px;
+    height: 750px;
+    position: absolute;      
+}
+
+#btnMen:hover,#btnKids:hover,#btnAsc:hover,#btnWomen:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#btnKids{
+    position: absolute;      
+    margin-top: 1100px;
+    margin-left: 890px;
+    font-size: x-large;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-color: black;
+}
+
+#img5{
+    margin-top: 1200px;
+    position: absolute;      
+}
+
+#btnAsc{
+    position: absolute;
+    margin-top: 1780px;
+    margin-left: 160px;
+    font-size: x-large;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-color: black;
+}
+
+#img6{
+    margin-top: 1200px;
+    margin-left: 555px;
+    position: absolute;
+    width: 712px;      
+    height: 650px;
+}
+
+#btnWomen{
+    position: absolute;
+    margin-top: 1780px;
+    margin-left: 840px;
+    font-size: x-large;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-color: black;
+}
+
+#C1{
+    /* border: 1px solid black; */
+    height: 300px;
+    position: absolute;
+    margin-top: 1870px; 
+    width: 360px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0016/0074/9623/files/IMG_0914_360x.jpg?v=1684594394);
+    background-repeat: no-repeat;
+}
+
+#C1:hover,#C2:hover,#C3:hover{
+    box-shadow: 1px 2px 5px black;
+    transition: 0.2s;
+}
+
+#C1Head{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2180px;
+    width: fit-content;
+    color: black;
+}
+
+#C1HeadPrice{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2200px;
+    width: fit-content;
+    color: black;
+    margin-left: 100px;
+}
+
+#C2{
+    /* border: 1px solid black; */
+    height: 300px;
+    position: absolute;
+    margin-top: 1870px; 
+    width: 360px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0016/0074/9623/files/IMG_0884_1ba50708-261d-4827-b1fe-3cd85b3c141d_360x.jpg?v=1684594214);
+    background-repeat: no-repeat;
+    margin-left: 380px;
+}
+
+#C2Head{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2180px;
+    width: fit-content;
+    color: black;
+    margin-left: 510px;
+}
+
+#C2HeadPrice{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2200px;
+    width: fit-content;
+    color: black;
+    margin-left: 510px;
+}
+
+#C3{
+    /* border: 1px solid black; */
+    height: 300px;
+    position: absolute;
+    margin-top: 1870px; 
+    width: 360px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0016/0074/9623/files/IMG_1027_552c641c-5b87-4c74-9370-bb8e4fafcd85_360x.jpg?v=1684594037);
+    background-repeat: no-repeat;
+    margin-left: 760px;
+}
+
+#C3Head{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2180px;
+    width: fit-content;
+    color: black;
+    margin-left: 900px;
+}
+
+#C3HeadPrice{
+    height: 300px;
+    position: absolute;   
+    margin-top: 2200px;
+    width: fit-content;
+    color: black;
+    margin-left: 900px;
+}
+
+#divftr{
+    /* border: 1px solid black; */
+    position: absolute;   
+    margin-top: 2250px;
+    width: 1250px;
+    height: 500px;
+}
+
+#ftrHead{
+    position: absolute;   
+    margin-left: 250px;
+}
+
+#txtEA{
+    margin-top: 50px;   
+    position: absolute;   
+    margin-left: 480px;
+    width: 250px;
+}
+
+#btnSub{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 480px;
+    height: 30px;
+    width: 257px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+#myacct{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 280px;
+}
+
+#myacct:hover,#custserv:hover,#re:hover,#store:hover,#abtUs:hover,#StMp:hover,#blgs:hover{
+    color: darkorange;
+    text-decoration: underline;
+    font-size: large;
+}
+
+#custserv{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 380px;
+}
+
+#re{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 520px;   
+}
+
+#store{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 690px;
+}
+
+#abtUs{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 750px;   
+}
+
+#StMp{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 840px;   
+}
+
+#blgs{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 925px;   
+}
+
+#btnfb{
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 120px;
+    margin-left: 500px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    font-size: xx-large;
+    border: none;
+    background-color: white;
+}
+
+#btnfb:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btntw{
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 120px;
+    margin-left: 550px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    font-size: x-large;
+    border: none;
+    background-color: white;
+}
+
+#btntw:hover{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btnIns{
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 120px;
+    margin-left: 600px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    font-size: x-large;
+    border: none;
+    background-color: white;
+}
+
+#btnIns:hover{
+    background-color: midnightblue;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btnYT{
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 120px;
+    margin-left: 650px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    font-size: x-large;
+    border: none;
+    background-color: white;
+}
+
+#btnYT:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btntktok{
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 120px;
+    margin-left: 700px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    font-size: x-large;
+    border: none;
+    background-color: white;   
+}
+
+#btntktok:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;   
+}
+
+#offcanvasScrolling{
+    position: absolute;
+    margin-top: 2500px;
+}
